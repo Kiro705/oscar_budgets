@@ -1,7 +1,5 @@
 const axios = require('axios')
 
-console.log('It worked!')
-
 const printInfo = function(info){
 	console.log('********')
 	console.log('Year: ', info.year)
@@ -85,7 +83,7 @@ axios.get('http://oscars.yipitdata.com/')
 						const numberArray = budgetToNumber(budgetList)
 						console.log('*********************************')
 						console.log('Average budget: $' + averageArray(numberArray))
-						console.log('Done')
+						console.log('*********************************')
 					}
 				})
 			}
