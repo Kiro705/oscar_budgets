@@ -1,0 +1,24 @@
+{
+  "name": "oscar_budgets",
+  "version": "1.0.0",
+  "description": "script for getting budgets of oscar winners",
+  "main": "index.js",
+  "author": "Jackson Sui",
+  "license": "ISC",
+  "homepage": "https://github.com/Kiro705/oscar_budgets#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiro705/oscar_budgets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kiro705/oscar_budgets/issues"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {}
+}
