@@ -1,0 +1,9 @@
+Information to run script:
+> Change directory in terminal to the one containing the package.json
+> run 'npm install'
+> run 'npm start'
+
+Average Budget: $17,247,548
+
+About Approach:
+The first thing that is done is it loads the data from the main api, finds all the winners and then loads their budget data. As soon as the budget data is loaded it will print out the year-title-budget of that year and push the budget info to an array. Once we have gone through all the years and got the budget info, we run a function to parse all the varieties of budget info (this is probably the most complicated looking part of the code, but I have added comments in this function). Once all budgets are the appropriate number we take an average of the array.
